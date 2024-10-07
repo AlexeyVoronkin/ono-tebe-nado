@@ -144,15 +144,19 @@
 .lots__card_list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-flow: column;
-  column-gap: 25px;
-  height: 563px;
   background-color: #9bc850;
 }
 
-.lots_card_list_item {
-  display: flex;
-  flex-basis: 334px;
+.lots__card-list-item{
+  display: grid;
+  grid-template-rows: 563px;
+  grid-auto-flow: column;
+  column-gap: 25px;
+  min-height: 563px;
+}
+
+.card-link {
+  text-decoration: none;
 }
 
 .card_type_book {
