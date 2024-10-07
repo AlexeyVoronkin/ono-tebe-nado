@@ -141,18 +141,18 @@
   font-size: 40px;
 }
 
-.lots__card_list {
+.lots__card-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: #9bc850;
-}
-
-.lots__card-list-item{
-  display: grid;
   grid-template-rows: 563px;
   grid-auto-flow: column;
   column-gap: 25px;
   min-height: 563px;
+  background-color: #9bc850;
+}
+
+.lots__card-list-item{
+  
 }
 
 .card-link {
